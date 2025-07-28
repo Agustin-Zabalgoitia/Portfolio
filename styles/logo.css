@@ -1,0 +1,480 @@
+.logo {
+  animation: fill 2s ease forwards 4.7s;
+}
+
+.rot {
+  animation: rot 0.1s infinite linear;
+}
+
+.rain {
+  animation: rainbow 5s infinite;
+}
+
+.subibaja {
+  animation: subibaja 1.98531s infinite linear;
+}
+
+.dvd {
+  animation: dvd 0.729531549652s infinite linear;
+}
+
+.logo path:nth-child(1) {
+  stroke-dasharray: 100%;
+  stroke-dashoffset: 100%;
+  animation: line-anim 13s ease forwards;
+}
+
+.logo path:nth-child(2) {
+  stroke-dasharray: 100%;
+  stroke-dashoffset: 100%;
+  animation: line-anim 11s ease forwards;
+}
+
+.logo path:nth-child(3) {
+  stroke-dasharray: 100%;
+  stroke-dashoffset: 100%;
+  animation: line-anim 16s ease forwards;
+}
+
+.logo path:nth-child(4) {
+  stroke-dasharray: 100%;
+  stroke-dashoffset: 100%;
+  animation: line-anim 11s ease forwards;
+}
+
+.logo path:nth-child(5) {
+  stroke-dasharray: 100%;
+  stroke-dashoffset: 100%;
+  animation: line-anim 13s ease forwards;
+}
+
+.logo path:nth-child(6) {
+  stroke-dasharray: 100%;
+  stroke-dashoffset: 100%;
+  animation: line-anim 15.5s ease forwards;
+}
+
+.logo path:nth-child(7) {
+  stroke-dasharray: 100%;
+  stroke-dashoffset: 100%;
+  animation: line-anim 13s ease forwards;
+}
+
+.logo path:nth-child(8) {
+  stroke-dasharray: 100%;
+  stroke-dashoffset: 100%;
+  animation: line-anim 11s ease forwards;
+}
+
+.logo path:nth-child(9) {
+  stroke-dasharray: 100%;
+  stroke-dashoffset: 100%;
+  animation: line-anim 13s ease forwards;
+}
+
+.logo path:nth-child(10) {
+  stroke-dasharray: 100%;
+  stroke-dashoffset: 100%;
+  animation: line-anim 13s ease forwards;
+}
+
+.logo path:nth-child(11) {
+  stroke-dasharray: 100%;
+  stroke-dashoffset: 100%;
+  animation: line-anim 12s ease forwards;
+}
+
+.logo path:nth-child(12) {
+  stroke-dasharray: 100%;
+  stroke-dashoffset: 100%;
+  animation: line-anim 13s ease forwards;
+}
+
+.logo path:nth-child(13) {
+  stroke-dasharray: 100%;
+  stroke-dashoffset: 100%;
+  animation: line-anim 11s ease forwards;
+}
+
+.logo path:nth-child(14) {
+  stroke-dasharray: 100%;
+  stroke-dashoffset: 100%;
+  animation: line-anim 19s ease forwards;
+}
+
+.logo path:nth-child(15) {
+  stroke-dasharray: 100%;
+  stroke-dashoffset: 100%;
+  animation: line-anim 11s ease forwards;
+}
+
+.logo path:nth-child(16) {
+  stroke-dasharray: 100%;
+  stroke-dashoffset: 100%;
+  animation: line-anim 16.2s ease forwards;
+}
+
+.logo path:nth-child(17) {
+  stroke-dasharray: 100%;
+  stroke-dashoffset: 100%;
+  animation: line-anim 11s ease forwards;
+}
+.logo path:nth-child(18) {
+  stroke-dasharray: 100%;
+  stroke-dashoffset: 100%;
+  animation: line-anim 15s ease forwards;
+}
+
+@keyframes line-anim {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fill {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: white;
+  }
+}
+
+@keyframes rot {
+  0% {
+    transform: rotatez(0deg) scaleY(2);
+  }
+  100% {
+    transform: rotatez(360deg) scaleY(2);
+  }
+}
+
+@keyframes rainbow {
+  0% {
+    background-color: red;
+  }
+  1% {
+    background-color: green;
+  }
+  2% {
+    background-color: blue;
+  }
+  3% {
+    background-color: yellow;
+  }
+  4% {
+    background-color: cyan;
+  }
+  5% {
+    background-color: magenta;
+  }
+  6% {
+    background-color: orange;
+  }
+  7% {
+    background-color: lime;
+  }
+  8% {
+    background-color: deeppink;
+  }
+  9% {
+    background-color: dodgerblue;
+  }
+  10% {
+    background-color: red;
+  }
+  11% {
+    background-color: green;
+  }
+  12% {
+    background-color: blue;
+  }
+  13% {
+    background-color: yellow;
+  }
+  14% {
+    background-color: cyan;
+  }
+  15% {
+    background-color: magenta;
+  }
+  16% {
+    background-color: orange;
+  }
+  17% {
+    background-color: lime;
+  }
+  18% {
+    background-color: deeppink;
+  }
+  19% {
+    background-color: dodgerblue;
+  }
+  20% {
+    background-color: red;
+  }
+  21% {
+    background-color: green;
+  }
+  22% {
+    background-color: blue;
+  }
+  23% {
+    background-color: yellow;
+  }
+  24% {
+    background-color: cyan;
+  }
+  25% {
+    background-color: magenta;
+  }
+  26% {
+    background-color: orange;
+  }
+  27% {
+    background-color: lime;
+  }
+  28% {
+    background-color: deeppink;
+  }
+  29% {
+    background-color: dodgerblue;
+  }
+  30% {
+    background-color: red;
+  }
+  31% {
+    background-color: green;
+  }
+  32% {
+    background-color: blue;
+  }
+  33% {
+    background-color: yellow;
+  }
+  34% {
+    background-color: cyan;
+  }
+  35% {
+    background-color: magenta;
+  }
+  36% {
+    background-color: orange;
+  }
+  37% {
+    background-color: lime;
+  }
+  38% {
+    background-color: deeppink;
+  }
+  39% {
+    background-color: dodgerblue;
+  }
+  40% {
+    background-color: red;
+  }
+  41% {
+    background-color: green;
+  }
+  42% {
+    background-color: blue;
+  }
+  43% {
+    background-color: yellow;
+  }
+  44% {
+    background-color: cyan;
+  }
+  45% {
+    background-color: magenta;
+  }
+  46% {
+    background-color: orange;
+  }
+  47% {
+    background-color: lime;
+  }
+  48% {
+    background-color: deeppink;
+  }
+  49% {
+    background-color: dodgerblue;
+  }
+  50% {
+    background-color: red;
+  }
+  51% {
+    background-color: green;
+  }
+  52% {
+    background-color: blue;
+  }
+  53% {
+    background-color: yellow;
+  }
+  54% {
+    background-color: cyan;
+  }
+  55% {
+    background-color: magenta;
+  }
+  56% {
+    background-color: orange;
+  }
+  57% {
+    background-color: lime;
+  }
+  58% {
+    background-color: deeppink;
+  }
+  59% {
+    background-color: dodgerblue;
+  }
+  60% {
+    background-color: red;
+  }
+  61% {
+    background-color: green;
+  }
+  62% {
+    background-color: blue;
+  }
+  63% {
+    background-color: yellow;
+  }
+  64% {
+    background-color: cyan;
+  }
+  65% {
+    background-color: magenta;
+  }
+  66% {
+    background-color: orange;
+  }
+  67% {
+    background-color: lime;
+  }
+  68% {
+    background-color: deeppink;
+  }
+  69% {
+    background-color: dodgerblue;
+  }
+  70% {
+    background-color: red;
+  }
+  71% {
+    background-color: green;
+  }
+  72% {
+    background-color: blue;
+  }
+  73% {
+    background-color: yellow;
+  }
+  74% {
+    background-color: cyan;
+  }
+  75% {
+    background-color: magenta;
+  }
+  76% {
+    background-color: orange;
+  }
+  77% {
+    background-color: lime;
+  }
+  78% {
+    background-color: deeppink;
+  }
+  79% {
+    background-color: dodgerblue;
+  }
+  80% {
+    background-color: red;
+  }
+  81% {
+    background-color: green;
+  }
+  82% {
+    background-color: blue;
+  }
+  83% {
+    background-color: yellow;
+  }
+  84% {
+    background-color: cyan;
+  }
+  85% {
+    background-color: magenta;
+  }
+  86% {
+    background-color: orange;
+  }
+  87% {
+    background-color: lime;
+  }
+  88% {
+    background-color: deeppink;
+  }
+  89% {
+    background-color: dodgerblue;
+  }
+  90% {
+    background-color: red;
+  }
+  91% {
+    background-color: green;
+  }
+  92% {
+    background-color: blue;
+  }
+  93% {
+    background-color: yellow;
+  }
+  94% {
+    background-color: cyan;
+  }
+  95% {
+    background-color: magenta;
+  }
+  96% {
+    background-color: orange;
+  }
+  97% {
+    background-color: lime;
+  }
+  98% {
+    background-color: deeppink;
+  }
+  99% {
+    background-color: dodgerblue;
+  }
+  100% {
+    background-color: red;
+  }
+}
+
+@keyframes subibaja {
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(100vh);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes dvd {
+  0% {
+    transform: translateX(-50vw);
+  }
+  50% {
+    transform: translateX(50vw);
+  }
+  100% {
+    transform: translateX(-50vw);
+  }
+}
